@@ -1,0 +1,11 @@
+.b-green {
+  position: relative;
+  width: 20%;
+  display: inline-block;
+  margin: 10px 8% 10px 0;  
+  padding: 20px;
+  background: #cff;
+  color: #900;
+  border: 1px solid #bbb;
+  box-shadow: 0 0 6px #aaa;
+}

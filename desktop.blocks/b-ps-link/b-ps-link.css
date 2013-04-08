@@ -1,0 +1,8 @@
+.b-ps-link {
+  border-bottom: 1px dotted #666;
+  color: #666 !important;
+  cursor: pointer;
+}
+.b-ps-link:hover {
+  border: none;
+}

@@ -1,0 +1,22 @@
+.b-column {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+}
+.b-column__column {
+  position: relative;
+  display: inline-block;
+  width: 380px;
+  vertical-align: top;
+}
+.b-column__column2 {
+  position: relative;
+  display: inline-block;
+  width: 380px;
+  vertical-align: top;
+  margin: 0 0 0 115px;
+}
+.b-column p {
+  text-indent: 16px; 
+}

@@ -1,0 +1,13 @@
+.b-now h3 {
+  font: normal 20px Arial;
+  margin: 0;
+}
+.b-now h3:first-letter {
+  font-size: 24px;
+  color: red;
+}
+.b-now p {
+  text-indent: 0;
+  font-size: 16px;
+  margin: 8px 0;
+}

@@ -1,0 +1,17 @@
+.b-page {
+  position: relative;
+  max-width: 1200px;
+  min-width: 380px;
+  margin: 20px auto 40px;
+  padding: 0 20px;
+  border-left: 1px solid #aaa;
+  border-right: 1px solid #aaa;
+  box-shadow: 0 0 15px #aaa;
+  font: normal 14px Arial; 
+}
+.b-page a {
+  color: #036;
+}
+.b-page a:hover {
+  color: red;
+}

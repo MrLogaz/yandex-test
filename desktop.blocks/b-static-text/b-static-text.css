@@ -1,0 +1,22 @@
+.b-static-text {
+  font: normal 16px 'Myriad Pro'; 
+  color: #333;
+}
+.b-static-text h2 { 
+  font-size: 2.6em;
+  color: #555;
+}
+.b-static-text h3 {
+  font-size: 24px;
+  margin: 0 0 26px;
+  font-weight: normal;
+}
+.b-static-text ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.b-static-text ul li:before {
+  content: '—';
+  margin: 0 .5em 0 -1.5em;
+}

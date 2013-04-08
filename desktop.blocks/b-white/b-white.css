@@ -1,0 +1,9 @@
+.b-white {
+  position: relative;
+
+  margin: 10px 40px 10px 0;  
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #bbb;
+  box-shadow: 0 0 6px #aaa;
+}

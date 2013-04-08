@@ -1,0 +1,15 @@
+.b-red {
+  position: relative;
+  width: 50%;
+  display: inline-block;
+  margin: 10px 8% 10px 0;
+  padding: 20px;
+  background: #f33;
+  color: #fff;
+  border: 1px solid #bbb;
+  box-shadow: 0 0 6px #aaa;
+}
+.b-red__margin {
+  margin: 0 20px;
+  display: inline-block;
+}

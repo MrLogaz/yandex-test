@@ -1,0 +1,14 @@
+block b-progress {
+  js: true
+  content: [
+    {
+      elem: 'val',
+      tag: 'span',
+      content: this.ctx.content + '%'
+    },
+    {
+      elem: 'line',
+      attrs: { style: 'width: ' + this.ctx.content + '%' }
+    }
+  ]
+}

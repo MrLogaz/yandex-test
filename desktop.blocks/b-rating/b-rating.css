@@ -1,0 +1,47 @@
+.b-rating { 
+  position: relative;
+  height: 18px;
+  cursor: pointer;
+  width: 100px;
+  display: inline-block;
+}
+.b-rating__blank,
+.b-rating__votes,
+.b-rating__hover,
+.b-rating__info { 
+  height: 18px;
+  position: absolute;
+  left: 0;
+}
+.b-rating__blank {
+  background: url(rating3.png) 0 -18px;
+  width: 100px;
+}
+.b-rating__votes {
+  background: url(rating3.png) 0 2px;
+}
+.b-rating__hover {
+  background: url(rating3.png) 0 -38px;
+  display:none;
+}
+.b-rating__info {
+  position: absolute;
+  top: 20px;
+  font-size: 14px;
+  display: block;
+  width:  100px;
+  transition: opacity 1s ease;
+  -moz-transition: opacity 1s ease;
+  -webkit-transition: opacity 1s ease;
+  -o-transition: opacity 1s ease;
+  opacity: 0; 
+  height: 0;
+  overflow: hidden;
+}
+.b-rating__info.active {
+  height: auto;
+  opacity: 1;
+}
+.b-rating__info b {
+  font-size: 1.2em;
+}

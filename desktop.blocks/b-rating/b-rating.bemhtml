@@ -1,0 +1,17 @@
+block b-rating  {
+  js: true
+  content: [
+    {
+      elem: 'blank'
+    },
+    {
+      elem: 'hover'
+    },
+    {
+      elem: 'votes'
+    },
+    {
+      elem: 'info'
+    }
+  ]
+}

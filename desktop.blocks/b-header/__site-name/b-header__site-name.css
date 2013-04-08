@@ -1,0 +1,9 @@
+.b-header__site-name {
+  font-size: 2.4em;
+  position: absolute;
+  left: 220px;
+  top: 40px;
+}
+.b-header__site-name:first-letter {
+  color: red;
+}
